@@ -90,7 +90,6 @@ object TaskVal {
     }
 
     override def toString: String = values.mkString("Context(", ",", ")")
-
   }
 
   object Context {
