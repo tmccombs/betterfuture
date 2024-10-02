@@ -71,5 +71,4 @@ class EnsuringSpec extends UnitSpec {
       e.getSuppressed().loneElement.getMessage() must be("second")
     }
   }
-
 }
