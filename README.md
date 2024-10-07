@@ -17,7 +17,7 @@ Features included in this library are:
   [InterruptibleFuture](src/InterruptibleFuture.scala), and [Cancellable](src/Cancellable.scala).
 - Having Future-local storage that is propagated through `Future`s, similar to
   thread-local storage. See [CFuture](src/CFuture.scala) and [TaskVal](src/TaskVal.scala).
-- [ ] Asynchronous equivalent of `Using` (not yet implemented)
+- Asynchronous equivalent of `Using`
 - [ ] Asynchronous channel for passing values between future tasks. (not yet implemented)
 - [ ] Asynchronous iterator trait (not yet implemented)
 - [ ] Asynchronous lock (not yet implemented)
